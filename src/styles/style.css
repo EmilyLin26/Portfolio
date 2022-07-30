@@ -1,0 +1,197 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+}
+nav div.headerIcon {
+  display: flex;
+  margin: 1rem;
+  font-family: "Ibarra Real Nova", serif;
+  flex: 4 1 550px;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex: 2 1 300px;
+  justify-content: flex-end;
+  margin-right: 2.5rem;
+}
+nav ul li {
+  padding: 1rem 2rem;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #1c3d6b;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 900px) {
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  div.container {
+    width: 95%;
+    position: absolute;
+    left: 3vw;
+  }
+  div.container div.search {
+    width: 100%;
+    max-width: 600px;
+    padding: 0;
+  }
+  div.container div.search input {
+    margin-left: 2.5rem;
+    padding: -10px;
+  }
+  div.container div.search button {
+    margin-right: 2rem;
+  }
+  .imageContainer {
+    padding: 0.5rem;
+  }
+  .videoset {
+    min-width: 70vw;
+  }
+}
+div.homepageImage {
+  background-image: url(../homepage.jpg);
+  width: 100%;
+  min-height: 90vh;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.morePhotos {
+  min-height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.morePhotos button {
+  font-family: "Poppins", sans-serif;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 2rem;
+  border-radius: 20px;
+  background-color: #278A9F;
+  color: white;
+  cursor: pointer;
+}
+
+div.videoImage {
+  background-image: url(../videos.jpg);
+  width: 100%;
+  min-height: 90vh;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+  position: relative;
+}
+
+.moreVideos {
+  min-height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.moreVideos button {
+  font-family: "Poppins", sans-serif;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 2rem;
+  border-radius: 20px;
+  background-color: #278A9F;
+  color: white;
+  cursor: pointer;
+}
+
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.pictures .picture {
+  padding: 1rem;
+  width: 400px;
+}
+.pictures .picture .imageContainer {
+  overflow: hidden;
+  height: 40vh;
+}
+.pictures .picture .imageContainer img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.3s ease;
+}
+.pictures .picture .imageContainer img:hover {
+  transform: scale(1.25);
+}
+
+div.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 60vh;
+  right: 35vw;
+}
+div.container div.search {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid beige;
+  border-radius: 40px;
+  padding: 0.5rem;
+  background-color: rgba(255, 250, 250, 0.25);
+}
+div.container div.search input {
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  padding: 0.3rem;
+  background-color: transparent;
+  color: black;
+}
+div.container div.search button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 15px;
+}
+
+::-moz-placeholder {
+  color: black;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  color: black;
+  opacity: 1; /* Firefox */
+}
+
+::placeholder {
+  color: black;
+  opacity: 1; /* Firefox */
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: black;
+}/*# sourceMappingURL=style.css.map */

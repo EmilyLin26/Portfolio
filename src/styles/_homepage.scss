@@ -1,0 +1,33 @@
+div.homepageImage{
+    background-image: url(../homepage.jpg);
+    width: 100%;
+    min-height:90vh;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+    position: relative;
+    object-fit:cover;
+    
+    
+}
+
+.morePhotos{
+    
+    min-height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    button{
+        font-family: 'Poppins', sans-serif;
+        border: none;
+        padding: 0.75rem 1.5rem;
+        font-size: 2rem;
+        border-radius: 20px;
+        background-color: #278A9F;
+        color: white;
+        cursor: pointer;
+    }
+}
+
+

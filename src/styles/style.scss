@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+
+nav{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    
+
+    div.headerIcon{
+        display: flex;
+        margin: 1rem;
+        font-family: 'Ibarra Real Nova', serif;
+        flex: 4 1 550px;
+        
+        
+        
+    }
+    
+    
+    ul{
+        list-style-type: none;
+        display: flex;
+        flex:2 1 300px;
+        justify-content: flex-end;
+        margin-right: 2.5rem;
+        
+        
+        
+        
+        
+        
+        li{
+            padding: 1rem 2rem;
+           
+
+            a{
+                text-decoration: none;
+                color: #1c3d6b;
+                font-size: 1.5rem
+                
+                
+            }
+        }
+        
+    }
+}
+
+@media screen and (max-width: 900px) {
+	nav{
+        display: flex;
+        flex-wrap: wrap
+        
+        }
+
+    //button
+    div.container{
+        width:95%;
+        position: absolute;
+        left:3vw;
+
+        div.search{
+            width: 100%;
+            max-width:600px;
+            padding:0;
+
+        input{
+            margin-left: 2.5rem;
+            padding: -10px;
+        
+        }
+
+        button{
+            margin-right: 2rem;
+        }
+        
+    }
+}
+
+    //homepage pic
+    .imageContainer{
+            padding: 0.5rem;
+        }
+
+    //video
+    .videoset{
+        min-width:70vw;
+    }
+    
+
+}
+
+
+
+
+@import "./homepage";
+@import "./videos";
+@import "./picture";
+@import "./button";
