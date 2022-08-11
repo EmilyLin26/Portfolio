@@ -2,7 +2,7 @@
 * use Pexels API to create a photos/ videos searching website.
 
 ### React project :
-* include mapping data, useState, lifting State Up, useEffect
+* include mapping data, useState, lifting state up, useEffect
 
 ### Functions:
 * show popular photos and videos below when open the website
