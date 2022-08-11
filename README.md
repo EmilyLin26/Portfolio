@@ -1,8 +1,8 @@
 # portfolio
-* Use Pexels API to create a photos/ videos searching website.
+* use Pexels API to create a photos/ videos searching website.
 
 ### React project :
-* includes mapping data, useState, lifting State Up, useEffect
+* include mapping data, useState, lifting State Up, useEffect
 
 ### Functions:
 * show popular photos and videos below when open the website
